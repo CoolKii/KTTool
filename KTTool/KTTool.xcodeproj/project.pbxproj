@@ -13,6 +13,8 @@
 		0B5123AD202BF36900A5D8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5123AC202BF36900A5D8B9 /* Assets.xcassets */; };
 		0B5123B0202BF36900A5D8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5123AE202BF36900A5D8B9 /* LaunchScreen.storyboard */; };
 		0B5123B3202BF36900A5D8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5123B2202BF36900A5D8B9 /* main.m */; };
+		0BCA67D6202BF6470019C311 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA67D5202BF6470019C311 /* UIColor+HexString.m */; };
+		0BCA67D9202BF8790019C311 /* UILabel+Frami.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA67D8202BF8790019C311 /* UILabel+Frami.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		0B5123AF202BF36900A5D8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B5123B1202BF36900A5D8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B5123B2202BF36900A5D8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BCA67D4202BF6470019C311 /* UIColor+HexString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		0BCA67D5202BF6470019C311 /* UIColor+HexString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		0BCA67D7202BF8790019C311 /* UILabel+Frami.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Frami.h"; sourceTree = "<group>"; };
+		0BCA67D8202BF8790019C311 /* UILabel+Frami.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Frami.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		0B5123A2202BF36900A5D8B9 /* KTTool */ = {
 			isa = PBXGroup;
 			children = (
+				0BCA67D3202BF60B0019C311 /* Tool */,
 				0B5123A3202BF36900A5D8B9 /* AppDelegate.h */,
 				0B5123A4202BF36900A5D8B9 /* AppDelegate.m */,
 				0B5123A6202BF36900A5D8B9 /* ViewController.h */,
@@ -69,6 +76,17 @@
 				0B5123B2202BF36900A5D8B9 /* main.m */,
 			);
 			path = KTTool;
+			sourceTree = "<group>";
+		};
+		0BCA67D3202BF60B0019C311 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0BCA67D4202BF6470019C311 /* UIColor+HexString.h */,
+				0BCA67D5202BF6470019C311 /* UIColor+HexString.m */,
+				0BCA67D7202BF8790019C311 /* UILabel+Frami.h */,
+				0BCA67D8202BF8790019C311 /* UILabel+Frami.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +162,9 @@
 			files = (
 				0B5123A8202BF36900A5D8B9 /* ViewController.m in Sources */,
 				0B5123B3202BF36900A5D8B9 /* main.m in Sources */,
+				0BCA67D6202BF6470019C311 /* UIColor+HexString.m in Sources */,
 				0B5123A5202BF36900A5D8B9 /* AppDelegate.m in Sources */,
+				0BCA67D9202BF8790019C311 /* UILabel+Frami.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
