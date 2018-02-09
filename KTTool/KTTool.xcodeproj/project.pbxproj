@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B33C8BE202D3481002A0D7A /* NSDate+TimeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B33C8BD202D3481002A0D7A /* NSDate+TimeItem.m */; };
+		0B33C8C1202D3707002A0D7A /* UIView+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B33C8C0202D3707002A0D7A /* UIView+Line.m */; };
+		0B33C8C4202D3808002A0D7A /* CALayer+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B33C8C3202D3808002A0D7A /* CALayer+Line.m */; };
 		0B5123A5202BF36900A5D8B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5123A4202BF36900A5D8B9 /* AppDelegate.m */; };
 		0B5123A8202BF36900A5D8B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5123A7202BF36900A5D8B9 /* ViewController.m */; };
 		0B5123AB202BF36900A5D8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5123A9202BF36900A5D8B9 /* Main.storyboard */; };
@@ -18,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B33C8BC202D3481002A0D7A /* NSDate+TimeItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeItem.h"; sourceTree = "<group>"; };
+		0B33C8BD202D3481002A0D7A /* NSDate+TimeItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeItem.m"; sourceTree = "<group>"; };
+		0B33C8BF202D3707002A0D7A /* UIView+Line.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Line.h"; sourceTree = "<group>"; };
+		0B33C8C0202D3707002A0D7A /* UIView+Line.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Line.m"; sourceTree = "<group>"; };
+		0B33C8C2202D3808002A0D7A /* CALayer+Line.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+Line.h"; sourceTree = "<group>"; };
+		0B33C8C3202D3808002A0D7A /* CALayer+Line.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Line.m"; sourceTree = "<group>"; };
 		0B5123A0202BF36900A5D8B9 /* KTTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B5123A3202BF36900A5D8B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0B5123A4202BF36900A5D8B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -85,6 +94,12 @@
 				0BCA67D5202BF6470019C311 /* UIColor+HexString.m */,
 				0BCA67D7202BF8790019C311 /* UILabel+Frami.h */,
 				0BCA67D8202BF8790019C311 /* UILabel+Frami.m */,
+				0B33C8BC202D3481002A0D7A /* NSDate+TimeItem.h */,
+				0B33C8BD202D3481002A0D7A /* NSDate+TimeItem.m */,
+				0B33C8BF202D3707002A0D7A /* UIView+Line.h */,
+				0B33C8C0202D3707002A0D7A /* UIView+Line.m */,
+				0B33C8C2202D3808002A0D7A /* CALayer+Line.h */,
+				0B33C8C3202D3808002A0D7A /* CALayer+Line.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -161,8 +176,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B5123A8202BF36900A5D8B9 /* ViewController.m in Sources */,
+				0B33C8C1202D3707002A0D7A /* UIView+Line.m in Sources */,
 				0B5123B3202BF36900A5D8B9 /* main.m in Sources */,
+				0B33C8BE202D3481002A0D7A /* NSDate+TimeItem.m in Sources */,
 				0BCA67D6202BF6470019C311 /* UIColor+HexString.m in Sources */,
+				0B33C8C4202D3808002A0D7A /* CALayer+Line.m in Sources */,
 				0B5123A5202BF36900A5D8B9 /* AppDelegate.m in Sources */,
 				0BCA67D9202BF8790019C311 /* UILabel+Frami.m in Sources */,
 			);
