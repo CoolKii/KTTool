@@ -55,5 +55,41 @@
     return height;
 }
 
+#pragma mark - 两个字符串之前AttributeString
++ (NSMutableAttributedString *)attributeStr:(NSString *)string PrefixStr:(NSString *)prefixStr SuffixStr:(NSString *)suffixStr{
+    
+    NSRange xRange = [string rangeOfString:prefixStr];
+    NSRange yRange = [string rangeOfString:suffixStr];
+    
+    //创建NSMutableAttributedString
+    NSMutableAttributedString * attrStr = [[NSMutableAttributedString alloc]initWithString:string];
+    NSUInteger theLocation = xRange.location;
+    NSUInteger theLength = yRange.location - xRange.location;
+    NSRange theRange = NSMakeRange(theLocation + 1, theLength - 1);
+    
+    //设置字体和设置字体的范围
+    [attrStr addAttribute:NSFontAttributeName value:[UIFont fontWithName:@"PingFang TC" size:14.0f] range:theRange];
+    [attrStr addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:theRange];//149EFF
+    
+    return attrStr;
+}
+
+#pragma mark - 首行缩进
++ (NSAttributedString *)firstLineAttrText:(NSString *)nameStr{
+    
+    NSMutableParagraphStyle *style = [[NSParagraphStyle defaultParagraphStyle] mutableCopy];
+    // 对齐方式
+    style.alignment = NSTextAlignmentJustified;
+    // 首行缩进
+    style.firstLineHeadIndent = -10.0f;
+    // 头部缩进
+    style.headIndent = 6.5f;
+    //行间距
+    [style setLineSpacing:10];
+    
+    NSMutableAttributedString *attrText = [[NSMutableAttributedString alloc] initWithString:nameStr attributes:@{ NSParagraphStyleAttributeName : style}];
+    
+    return attrText;
+}
 
 @end
