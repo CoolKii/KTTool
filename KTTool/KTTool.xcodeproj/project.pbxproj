@@ -19,6 +19,7 @@
 		0BCA67D6202BF6470019C311 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA67D5202BF6470019C311 /* UIColor+HexString.m */; };
 		0BCA67D9202BF8790019C311 /* UILabel+Frami.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA67D8202BF8790019C311 /* UILabel+Frami.m */; };
 		0BD24EAC2091681300C5D1BF /* NSDate+Stamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD24EAB2091681300C5D1BF /* NSDate+Stamp.m */; };
+		0BEA62B520A2865B007E3313 /* KTRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA62B420A2865B007E3313 /* KTRegular.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		0BCA67D8202BF8790019C311 /* UILabel+Frami.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Frami.m"; sourceTree = "<group>"; };
 		0BD24EAA2091681300C5D1BF /* NSDate+Stamp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Stamp.h"; sourceTree = "<group>"; };
 		0BD24EAB2091681300C5D1BF /* NSDate+Stamp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Stamp.m"; sourceTree = "<group>"; };
+		0BEA62B320A2865B007E3313 /* KTRegular.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTRegular.h; sourceTree = "<group>"; };
+		0BEA62B420A2865B007E3313 /* KTRegular.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTRegular.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				0B33C8C3202D3808002A0D7A /* CALayer+Line.m */,
 				0BD24EAA2091681300C5D1BF /* NSDate+Stamp.h */,
 				0BD24EAB2091681300C5D1BF /* NSDate+Stamp.m */,
+				0BEA62B320A2865B007E3313 /* KTRegular.h */,
+				0BEA62B420A2865B007E3313 /* KTRegular.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -187,6 +192,7 @@
 				0BD24EAC2091681300C5D1BF /* NSDate+Stamp.m in Sources */,
 				0BCA67D6202BF6470019C311 /* UIColor+HexString.m in Sources */,
 				0B33C8C4202D3808002A0D7A /* CALayer+Line.m in Sources */,
+				0BEA62B520A2865B007E3313 /* KTRegular.m in Sources */,
 				0B5123A5202BF36900A5D8B9 /* AppDelegate.m in Sources */,
 				0BCA67D9202BF8790019C311 /* UILabel+Frami.m in Sources */,
 			);
