@@ -9,9 +9,9 @@
 #import "UIColor+HexString.h"
 
 @implementation UIColor (HexString)
+
 + (UIColor *)colorWithHexString:(NSString *)color{
     NSString *cString = [[color stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
-    
     // String should be 6 or 8 characters
     if ([cString length] < 6) {
         return [UIColor clearColor];
