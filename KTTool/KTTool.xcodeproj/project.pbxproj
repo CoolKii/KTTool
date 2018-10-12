@@ -42,6 +42,7 @@
 		0BCA67D6202BF6470019C311 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA67D5202BF6470019C311 /* UIColor+HexString.m */; };
 		0BCA67D9202BF8790019C311 /* UILabel+Frami.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA67D8202BF8790019C311 /* UILabel+Frami.m */; };
 		0BD24EAC2091681300C5D1BF /* NSDate+Stamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD24EAB2091681300C5D1BF /* NSDate+Stamp.m */; };
+		0BDF6BAA2170706100DDA363 /* KTDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDF6BA92170706100DDA363 /* KTDevice.m */; };
 		0BEA62B520A2865B007E3313 /* KTRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA62B420A2865B007E3313 /* KTRegular.m */; };
 		0BEA62EC20A2CAA9007E3313 /* KTQrCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA62EB20A2CAA9007E3313 /* KTQrCode.m */; };
 /* End PBXBuildFile section */
@@ -115,6 +116,8 @@
 		0BCA67D8202BF8790019C311 /* UILabel+Frami.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Frami.m"; sourceTree = "<group>"; };
 		0BD24EAA2091681300C5D1BF /* NSDate+Stamp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Stamp.h"; sourceTree = "<group>"; };
 		0BD24EAB2091681300C5D1BF /* NSDate+Stamp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Stamp.m"; sourceTree = "<group>"; };
+		0BDF6BA82170706100DDA363 /* KTDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTDevice.h; sourceTree = "<group>"; };
+		0BDF6BA92170706100DDA363 /* KTDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTDevice.m; sourceTree = "<group>"; };
 		0BEA62B320A2865B007E3313 /* KTRegular.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTRegular.h; sourceTree = "<group>"; };
 		0BEA62B420A2865B007E3313 /* KTRegular.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTRegular.m; sourceTree = "<group>"; };
 		0BEA62EA20A2CAA9007E3313 /* KTQrCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTQrCode.h; sourceTree = "<group>"; };
@@ -282,6 +285,8 @@
 		0BCA67D3202BF60B0019C311 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				0BDF6BA82170706100DDA363 /* KTDevice.h */,
+				0BDF6BA92170706100DDA363 /* KTDevice.m */,
 				0BCA67D7202BF8790019C311 /* UILabel+Frami.h */,
 				0BCA67D8202BF8790019C311 /* UILabel+Frami.m */,
 				0B33C8BF202D3707002A0D7A /* UIView+Line.h */,
@@ -399,6 +404,7 @@
 				0B5123A5202BF36900A5D8B9 /* AppDelegate.m in Sources */,
 				0B35E19220BF925D000A75EA /* UIView+Frame.m in Sources */,
 				0B35E18120BF925D000A75EA /* NSString+DisplayTime.m in Sources */,
+				0BDF6BAA2170706100DDA363 /* KTDevice.m in Sources */,
 				0B35E18020BF925D000A75EA /* NSMutableString+Safe.m in Sources */,
 				0B35E19720BF925D000A75EA /* NSString+Category.m in Sources */,
 				0B35E18A20BF925D000A75EA /* NSAttributedString+Category.m in Sources */,
