@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B15B36C2179C0C400F0FC2A /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B15B35C2179C0C400F0FC2A /* UIColor+Expanded.m */; };
+		0B15B36D2179C0C400F0FC2A /* LxButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B15B35E2179C0C400F0FC2A /* LxButton.m */; };
+		0B15B36E2179C0C400F0FC2A /* UILabel+LXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B15B3622179C0C400F0FC2A /* UILabel+LXLabel.m */; };
+		0B15B36F2179C0C400F0FC2A /* UINavigationController+LXPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B15B3662179C0C400F0FC2A /* UINavigationController+LXPlayerRotation.m */; };
+		0B15B3702179C0C400F0FC2A /* UIViewController+LXPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B15B3672179C0C400F0FC2A /* UIViewController+LXPlayerRotation.m */; };
+		0B15B3712179C0C400F0FC2A /* UIView+LX_Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B15B3682179C0C400F0FC2A /* UIView+LX_Frame.m */; };
+		0B15B3722179C0C400F0FC2A /* UIWindow+LXCurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B15B3692179C0C400F0FC2A /* UIWindow+LXCurrentViewController.m */; };
+		0B15B3732179C0C400F0FC2A /* UITabBarController+LXPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B15B36A2179C0C400F0FC2A /* UITabBarController+LXPlayerRotation.m */; };
 		0B33C8C1202D3707002A0D7A /* UIView+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B33C8C0202D3707002A0D7A /* UIView+Line.m */; };
 		0B33C8C4202D3808002A0D7A /* CALayer+Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B33C8C3202D3808002A0D7A /* CALayer+Line.m */; };
 		0B35E18020BF925D000A75EA /* NSMutableString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B35E15020BF9258000A75EA /* NSMutableString+Safe.m */; };
@@ -48,6 +56,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B15B35C2179C0C400F0FC2A /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		0B15B35D2179C0C400F0FC2A /* UITabBarController+LXPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+LXPlayerRotation.h"; sourceTree = "<group>"; };
+		0B15B35E2179C0C400F0FC2A /* LxButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxButton.m; sourceTree = "<group>"; };
+		0B15B35F2179C0C400F0FC2A /* UINavigationController+LXPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+LXPlayerRotation.h"; sourceTree = "<group>"; };
+		0B15B3602179C0C400F0FC2A /* UIViewController+LXPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LXPlayerRotation.h"; sourceTree = "<group>"; };
+		0B15B3612179C0C400F0FC2A /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
+		0B15B3622179C0C400F0FC2A /* UILabel+LXLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LXLabel.m"; sourceTree = "<group>"; };
+		0B15B3632179C0C400F0FC2A /* LxButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxButton.h; sourceTree = "<group>"; };
+		0B15B3642179C0C400F0FC2A /* UILabel+LXLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LXLabel.h"; sourceTree = "<group>"; };
+		0B15B3652179C0C400F0FC2A /* UIView+LX_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LX_Frame.h"; sourceTree = "<group>"; };
+		0B15B3662179C0C400F0FC2A /* UINavigationController+LXPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+LXPlayerRotation.m"; sourceTree = "<group>"; };
+		0B15B3672179C0C400F0FC2A /* UIViewController+LXPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LXPlayerRotation.m"; sourceTree = "<group>"; };
+		0B15B3682179C0C400F0FC2A /* UIView+LX_Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LX_Frame.m"; sourceTree = "<group>"; };
+		0B15B3692179C0C400F0FC2A /* UIWindow+LXCurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+LXCurrentViewController.m"; sourceTree = "<group>"; };
+		0B15B36A2179C0C400F0FC2A /* UITabBarController+LXPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+LXPlayerRotation.m"; sourceTree = "<group>"; };
+		0B15B36B2179C0C400F0FC2A /* UIWindow+LXCurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+LXCurrentViewController.h"; sourceTree = "<group>"; };
 		0B33C8BF202D3707002A0D7A /* UIView+Line.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Line.h"; sourceTree = "<group>"; };
 		0B33C8C0202D3707002A0D7A /* UIView+Line.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Line.m"; sourceTree = "<group>"; };
 		0B33C8C2202D3808002A0D7A /* CALayer+Line.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+Line.h"; sourceTree = "<group>"; };
@@ -135,9 +159,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B15B35B2179C0AB00F0FC2A /* temp */ = {
+			isa = PBXGroup;
+			children = (
+				0B15B3632179C0C400F0FC2A /* LxButton.h */,
+				0B15B35E2179C0C400F0FC2A /* LxButton.m */,
+				0B15B3612179C0C400F0FC2A /* UIColor+Expanded.h */,
+				0B15B35C2179C0C400F0FC2A /* UIColor+Expanded.m */,
+				0B15B3642179C0C400F0FC2A /* UILabel+LXLabel.h */,
+				0B15B3622179C0C400F0FC2A /* UILabel+LXLabel.m */,
+				0B15B35F2179C0C400F0FC2A /* UINavigationController+LXPlayerRotation.h */,
+				0B15B3662179C0C400F0FC2A /* UINavigationController+LXPlayerRotation.m */,
+				0B15B35D2179C0C400F0FC2A /* UITabBarController+LXPlayerRotation.h */,
+				0B15B36A2179C0C400F0FC2A /* UITabBarController+LXPlayerRotation.m */,
+				0B15B3652179C0C400F0FC2A /* UIView+LX_Frame.h */,
+				0B15B3682179C0C400F0FC2A /* UIView+LX_Frame.m */,
+				0B15B3602179C0C400F0FC2A /* UIViewController+LXPlayerRotation.h */,
+				0B15B3672179C0C400F0FC2A /* UIViewController+LXPlayerRotation.m */,
+				0B15B36B2179C0C400F0FC2A /* UIWindow+LXCurrentViewController.h */,
+				0B15B3692179C0C400F0FC2A /* UIWindow+LXCurrentViewController.m */,
+			);
+			path = temp;
+			sourceTree = "<group>";
+		};
 		0B35E14F20BF91E7000A75EA /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				0B15B35B2179C0AB00F0FC2A /* temp */,
 				0B35E1A020BF9395000A75EA /* NSData */,
 				0B35E19D20BF92DB000A75EA /* UIColor */,
 				0B35E19C20BF92C1000A75EA /* UIView */,
@@ -386,21 +434,29 @@
 				0B35E19620BF925D000A75EA /* UIButton+Category.m in Sources */,
 				0B33C8C1202D3707002A0D7A /* UIView+Line.m in Sources */,
 				0B35E18720BF925D000A75EA /* UIImage+Category.m in Sources */,
+				0B15B3712179C0C400F0FC2A /* UIView+LX_Frame.m in Sources */,
 				0B5123B3202BF36900A5D8B9 /* main.m in Sources */,
+				0B15B3722179C0C400F0FC2A /* UIWindow+LXCurrentViewController.m in Sources */,
+				0B15B36E2179C0C400F0FC2A /* UILabel+LXLabel.m in Sources */,
 				0B35E19120BF925D000A75EA /* NSString+Predicate.m in Sources */,
 				0BD24EAC2091681300C5D1BF /* NSDate+Stamp.m in Sources */,
 				0BEA62EC20A2CAA9007E3313 /* KTQrCode.m in Sources */,
 				0BCA67D6202BF6470019C311 /* UIColor+HexString.m in Sources */,
 				0B33C8C4202D3808002A0D7A /* CALayer+Line.m in Sources */,
+				0B15B3732179C0C400F0FC2A /* UITabBarController+LXPlayerRotation.m in Sources */,
+				0B15B36C2179C0C400F0FC2A /* UIColor+Expanded.m in Sources */,
 				0B35E18320BF925D000A75EA /* NSArray+Category.m in Sources */,
 				0BEA62B520A2865B007E3313 /* KTRegular.m in Sources */,
 				0B35E19520BF925D000A75EA /* NSData+CommonCryptor.m in Sources */,
+				0B15B36F2179C0C400F0FC2A /* UINavigationController+LXPlayerRotation.m in Sources */,
 				0B35E18520BF925D000A75EA /* UIMenuItem+Category.m in Sources */,
 				0B35E18E20BF925D000A75EA /* NSString+Safe.m in Sources */,
 				0B35E18C20BF925D000A75EA /* NSObject+PerformBlock.m in Sources */,
 				0B35E19020BF925D000A75EA /* NSArray+Safe.m in Sources */,
 				0B35E18D20BF925D000A75EA /* NSString+MD5.m in Sources */,
 				0B35E19320BF925D000A75EA /* NSDictionary+Safe.m in Sources */,
+				0B15B36D2179C0C400F0FC2A /* LxButton.m in Sources */,
+				0B15B3702179C0C400F0FC2A /* UIViewController+LXPlayerRotation.m in Sources */,
 				0B5123A5202BF36900A5D8B9 /* AppDelegate.m in Sources */,
 				0B35E19220BF925D000A75EA /* UIView+Frame.m in Sources */,
 				0B35E18120BF925D000A75EA /* NSString+DisplayTime.m in Sources */,
