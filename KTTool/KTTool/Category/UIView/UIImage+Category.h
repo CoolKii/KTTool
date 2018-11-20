@@ -93,4 +93,8 @@
                        tintColor:(UIColor *)tintColor
            saturationDeltaFactor:(CGFloat)saturationDeltaFactor
                        maskImage:(UIImage *)maskImage;
+
++ (UIImage *)ktImgWithUrlStr:(NSString *)urlString;
++ (UIImage *)imgNamed:(NSString *)name;
+
 @end

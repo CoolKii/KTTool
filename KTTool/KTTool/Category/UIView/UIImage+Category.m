@@ -8,6 +8,8 @@
 #import "UIImage+Category.h"
 #import <QuartzCore/QuartzCore.h>
 #import <Accelerate/Accelerate.h>
+#import "NSString+MD5.h"
+
 #define ORIGINAL_MAX_WIDTH 640.0f
 #define YY_SWAP(_a_, _b_)  do { __typeof__(_a_) _tmp_ = (_a_); (_a_) = (_b_); (_b_) = _tmp_; } while (0)
 @implementation UIImage (Category)
@@ -808,6 +810,33 @@ static void _yy_cleanupBuffer(void *userData, void *buf_data) {
     return outputImage;
     
 }
+
+
+
++ (UIImage *)ktImgWithUrlStr:(NSString *)urlString{
+    NSString * md_name = [urlString md5];
+    NSString * filePath = [NSHomeDirectory() stringByAppendingPathComponent:[NSString stringWithFormat:@"/Documents/%@",md_name]];
+    BOOL bo = [[NSFileManager defaultManager] fileExistsAtPath:filePath];
+    
+    if (bo) {
+        NSData * imgData = [NSData dataWithContentsOfFile:filePath];
+        UIImage * headImg = [UIImage imageWithData:imgData];
+        return headImg;
+    } else {
+        NSData * headData = [NSData dataWithContentsOfURL:[NSURL URLWithString:urlString]];
+        UIImage * headImg = [UIImage imageWithData:headData];
+        [UIImagePNGRepresentation(headImg) writeToFile:filePath atomically:YES];
+        return headImg;
+    }
+    return nil;
+}
+
++ (UIImage *)imgNamed:(NSString *)name{
+    NSBundle * sdkBundle = [NSBundle bundleWithIdentifier:@"Coolki.WELiveShowSDK"];
+    UIImage * theImg = [UIImage imageNamed:name inBundle:sdkBundle compatibleWithTraitCollection:nil];
+    return theImg;
+}
+
 
 @end
 

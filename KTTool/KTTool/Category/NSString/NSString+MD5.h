@@ -10,4 +10,5 @@
 
 @interface NSString (MD5)
 - (NSString *) md5WithString;//MD5加密
+- (NSString *)md5;
 @end
