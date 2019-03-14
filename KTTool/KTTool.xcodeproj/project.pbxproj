@@ -53,6 +53,7 @@
 		0BDF6BAA2170706100DDA363 /* KTDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDF6BA92170706100DDA363 /* KTDevice.m */; };
 		0BEA62B520A2865B007E3313 /* KTRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA62B420A2865B007E3313 /* KTRegular.m */; };
 		0BEA62EC20A2CAA9007E3313 /* KTQrCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA62EB20A2CAA9007E3313 /* KTQrCode.m */; };
+		4452EC70223A1E07002427BC /* SandBoxPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 4452EC6F223A1E07002427BC /* SandBoxPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -146,6 +147,8 @@
 		0BEA62B420A2865B007E3313 /* KTRegular.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTRegular.m; sourceTree = "<group>"; };
 		0BEA62EA20A2CAA9007E3313 /* KTQrCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTQrCode.h; sourceTree = "<group>"; };
 		0BEA62EB20A2CAA9007E3313 /* KTQrCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTQrCode.m; sourceTree = "<group>"; };
+		4452EC6E223A1E07002427BC /* SandBoxPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandBoxPath.h; sourceTree = "<group>"; };
+		4452EC6F223A1E07002427BC /* SandBoxPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandBoxPath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +188,7 @@
 		0B35E14F20BF91E7000A75EA /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				4452EC6D223A06FC002427BC /* SandBox */,
 				0B15B35B2179C0AB00F0FC2A /* temp */,
 				0B35E1A020BF9395000A75EA /* NSData */,
 				0B35E19D20BF92DB000A75EA /* UIColor */,
@@ -351,6 +355,15 @@
 			path = Tool;
 			sourceTree = "<group>";
 		};
+		4452EC6D223A06FC002427BC /* SandBox */ = {
+			isa = PBXGroup;
+			children = (
+				4452EC6E223A1E07002427BC /* SandBoxPath.h */,
+				4452EC6F223A1E07002427BC /* SandBoxPath.m */,
+			);
+			path = SandBox;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -454,6 +467,7 @@
 				0B35E18C20BF925D000A75EA /* NSObject+PerformBlock.m in Sources */,
 				0B35E19020BF925D000A75EA /* NSArray+Safe.m in Sources */,
 				0B35E18D20BF925D000A75EA /* NSString+MD5.m in Sources */,
+				4452EC70223A1E07002427BC /* SandBoxPath.m in Sources */,
 				0B35E19320BF925D000A75EA /* NSDictionary+Safe.m in Sources */,
 				0B15B36D2179C0C400F0FC2A /* LxButton.m in Sources */,
 				0B15B3702179C0C400F0FC2A /* UIViewController+LXPlayerRotation.m in Sources */,
@@ -599,6 +613,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BJY634RG9;
 				INFOPLIST_FILE = KTTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.webi.www.KTTool;
@@ -612,6 +627,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BJY634RG9;
 				INFOPLIST_FILE = KTTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.webi.www.KTTool;
